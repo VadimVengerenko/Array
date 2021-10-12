@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ERROR" monitorInterval="86400">
+    <Properties>
+        <property name="LOG_DIR">logs</property>
+        <property name="ARCHIVE_LOG_DIR">${LOG_DIR}/archive</property>
+        <property name="layout_rolling">
+            %d{dd-MM-yyyy HH:mm:ss} [%t] %-5level %logger{5} %M - %msg%n
+        </property>
+        <property name="pattern_rolling">
+            ${ARCHIVE_LOG_DIR}/%d{dd-MM-yyyy}_%i.log.zip
+        </property>
+        <property name="layout_console">
+            %d{HH:mm:ss} [%t] %-5level %logger{5} %M - %msg%n
+        </property>
+    </Properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${layout_console}"/>
+        </Console>
+        <RollingFile name="RollingLogFile" fileName="${LOG_DIR}/logs.log"
+                     filePattern="${pattern_rolling}" append="true">
+            <PatternLayout pattern="${layout_rolling}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="25 KB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingLogFile"/>
+        </Root>
+    </Loggers>
+</Configuration>

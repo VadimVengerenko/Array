@@ -1,0 +1,29 @@
+12-10-2021 11:18:03 [main] INFO  epam.array.reader.impl.CustomFileReaderImpl readFile - file "./input/input.txt" was successfully read
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "1." was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String ".2" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "3.5" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "4" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "5" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "6" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "+7" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "-8" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "9" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "1" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "2" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringToDouble - String "3" was successfully converted to double
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl stringsToArray - ArrayList<String> was successfully converted to CustomArray
+12-10-2021 11:18:03 [main] INFO  epam.array.converter.impl.CustomConverterImpl arrayListToArray - ArrayList<Double> was successfully converted to double[]
+12-10-2021 11:18:03 [main] INFO  com.epam.array.entity.CustomArray getArrayClone - array was successfully cloned
+12-10-2021 11:18:03 [main] INFO  com.epam.array.entity.CustomArray getArrayClone - array was successfully cloned
+12-10-2021 11:18:03 [main] INFO  epam.array.service.impl.ArrayCountServiceImpl countPositiveStream - 11 positive numbers in array
+12-10-2021 11:18:03 [main] INFO  com.epam.array.entity.CustomArray getArrayClone - array was successfully cloned
+12-10-2021 11:18:03 [main] INFO  epam.array.service.impl.ArraySortServiceImpl selectionSort - CustomArray was successfully sorted with selection method
+12-10-2021 11:18:03 [main] INFO  com.epam.array.entity.CustomArray getArrayClone - array was successfully cloned
+12-10-2021 11:18:03 [main] INFO  com.epam.array.entity.CustomArray getArrayClone - array was successfully cloned
+12-10-2021 11:18:03 [main] INFO  com.epam.array.entity.CustomArray getArrayClone - array was successfully cloned
+12-10-2021 11:18:03 [main] INFO  com.epam.array.entity.CustomArray getArrayClone - array was successfully cloned
+12-10-2021 11:18:03 [main] INFO  com.epam.array.entity.CustomArray getArrayClone - array was successfully cloned
+12-10-2021 11:18:03 [main] INFO  epam.array.service.impl.ArrayFindServiceImpl findAverageValStream - average of array elements is OptionalDouble[2.8083333333333336]
+12-10-2021 11:18:03 [main] INFO  com.epam.array.entity.CustomArray getArrayClone - array was successfully cloned
+12-10-2021 11:18:03 [main] INFO  epam.array.service.impl.ArrayElementsReplaceServiceImpl replaceElement - element of array with index 5 was successfully replaced with value 150.0
+12-10-2021 11:18:03 [main] INFO  com.epam.array.entity.CustomArray getArrayClone - array was successfully cloned
